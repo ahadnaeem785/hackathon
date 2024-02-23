@@ -18,7 +18,7 @@ export default function Categories() {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
         {/* pants */}
         <div className='mb-6 lg:mb-0 overflow-hidden mx-auto z-10 rounded-xl group relative'>
-          <Link href={"/pant"}>
+          <Link href={"/pants"}>
             <Image
               src={require("../../public/assets/c1.jpg")}
               alt='pant'
@@ -41,7 +41,7 @@ export default function Categories() {
         <div className='mb-6 lg:mb-0 overflow-hidden mx-auto z-10 rounded-xl group relative'>
           <Link href={"/shoes"}>
             <Image
-              src={require("../../public/assets/c3.jpg")}
+              src={require("../../public/assets/shoe.jpg")}
               alt='shoes'
               width={411}
               height={400}
@@ -83,7 +83,7 @@ export default function Categories() {
         <div className='mb-6 lg:mb-0 overflow-hidden mx-auto z-10 rounded-xl group relative'>
           <Link href={"/tops"}>
             <Image
-              src={require("../../public/assets/c4.jpg")}
+              src={require("../../public/assets/tops.jpg")}
               alt='tops'
               width={422}
               height={400}

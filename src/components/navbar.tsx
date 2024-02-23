@@ -32,9 +32,9 @@ export default function Navbar() {
                 </details>
               </li>
               <li><Link href={"/contact"}>Contact</Link></li>
-              <li><Link href={"/about"}>About</Link></li>
+              <li><Link href={"/about"}>About </Link></li>
             </ul>
-          </div >
+          </div>
           <Image src={require("../../public/assets/logo-2.png")} alt='image' width={100} height={100}
             className='w-[150px] h-[90px] hidden lg:block' />
         </div>

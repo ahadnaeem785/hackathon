@@ -11,10 +11,10 @@ export default function CartCard() {
     const dispatch = useAppDispatch();
     // console.log("hhh", cartAray)
     return (
-        <div>
+        <div className='mb-8'>
         
             {cartAray.length >= 1 && cartAray.map((item, i) => (
-                <div key={i} className='flex px-10 py-3 items-center'>
+                <div key={i} className='flex px-2 lg:px-10  mb-6 items-center'>
                     {/* image */}
                     <Image src={item.image[0]} alt={item.title} width={100} height={100} className='w-[130px] h-[150px] ' />
                     {/* info */}
