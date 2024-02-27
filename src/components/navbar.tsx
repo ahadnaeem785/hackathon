@@ -10,7 +10,7 @@ import { useAppSelector } from '@/app/store/hooks';
 export default function Navbar() {
   const cart = useAppSelector((state) => state.cart)
   return (
-    <div className=' sticky'>
+    <div className=' sticky top-0 bg-myWhite z-10'>
       <div className="navbar bg-mywhite">
         <div className="navbar-start">
           <div className="dropdown">
